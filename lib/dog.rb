@@ -47,9 +47,9 @@ class Dog
     dogs
   end
   
-  # def self.new_from_db(id)
+  def self.new_from_db(id)
     
-  # end
+  end
   
   def self.find_by_id(id)
     sql = <<-SQL
